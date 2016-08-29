@@ -7,12 +7,12 @@
 
 # Site settings
 title: the musical programmer
-email: zuimeng1995@gmail.com
+email: babysdfs@163.com
 description: > # this means to ignore newlines until "baseurl:"
   A profolio for an artical programmer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-github_username:  Adagio-cantabile
+github_username:  babysdfs
 
 # Build settings
 markdown: kramdown
