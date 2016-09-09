@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="row" style="margin-bottom:30px">
   <div class="home col-md-8">
-    {% for post in site.python %}
+    {% for post in site.categories['python'] %}
     <div class="post-contents">
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
