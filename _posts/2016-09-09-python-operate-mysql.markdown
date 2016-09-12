@@ -9,7 +9,7 @@ http://dillinger.io/    markdown在线编辑
     #############################################################  
     # -*- coding: utf-8 -*-  
     def insert_database():  
-    `    conn=MySQLdb.connect(host='localhost',user='root',passwd='***',db='dbname',port=3306,unix_socket='/tmp/mysql.sock',charset='utf8')` 
+        conn=MySQLdb.connect(host='localhost',user='root',passwd='***',db='dbname',port=3306,unix_socket='/tmp/mysql.sock',charset='utf8')
         cursor=conn.cursor()  # 返回列表  
         #cursor = conn.cursor(MySQLdb.cursors.DictCursor)   #返回字典，字典中的key为 mysql表中的字段  
         table="test"  
