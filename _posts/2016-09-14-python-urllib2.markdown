@@ -21,7 +21,7 @@ http://dillinger.io/    markdown在线编辑
     "User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
     }
     req = urllib2.Request(url)
-    for k,v in header.iteritems():   #传入header
+    for k,v in header.iteritems():   #传入请求header
         req.add_header(k,v)
     response=urllib2.urlopen(req)
     print response.headers  #返回的header
